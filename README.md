@@ -61,9 +61,10 @@ SCS/
 
 ### 1. Clone the repository
 
+
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd SCS
+git clone https://github.com/kharsh-1907/FonixBuddy-AI-Career-assistance.git
+cd FonixBuddy-AI-Career-assistance
 ```
 
 Replace the placeholder URL with your repository URL after creating it.
