@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "stars": 5,
+        "message": "The resume guidance helped me understand what was missing and what I should improve.",
+        "author": "Aarav Mehta"
+    },
+    {
+        "id": 2,
+        "stars": 4,
+        "message": "I liked how the career guidance was broken into clear and practical steps.",
+        "author": "Emily Carter"
+    },
+    {
+        "id": 3,
+        "stars": 5,
+        "message": "The interview preparation suggestions gave me a much better idea of where to focus.",
+        "author": "Rohan Desai"
+    },
+    {
+        "id": 4,
+        "stars": 3,
+        "message": "The guidance was useful, but I would like to see more detailed suggestions for different career paths.",
+        "author": "Daniel Brooks"
+    },
+    {
+        "id": 5,
+        "stars": 5,
+        "message": "Simple interface and useful guidance. I could quickly understand what to improve.",
+        "author": "Priya Nair"
+    },
+    {
+        "id": 6,
+        "stars": 4,
+        "message": "The roadmap gave me a clearer direction instead of randomly choosing what to learn.",
+        "author": "Sophia Williams"
+    },
+    {
+        "id": 7,
+        "stars": 3,
+        "message": "The interview preparation is helpful, but I would like more practice questions in the future.",
+        "author": "Aditya Kulkarni"
+    },
+    {
+        "id": 8,
+        "stars": 5,
+        "message": "The recommendations were easy to understand and helped me plan my next learning steps.",
+        "author": "Lucas Martin"
+    },
+    {
+        "id": 9,
+        "stars": 4,
+        "message": "The skill gap section made it easier to identify which areas I should work on next.",
+        "author": "Sneha Iyer"
+    },
+    {
+        "id": 10,
+        "stars": 3,
+        "message": "Good starting point for career preparation. More customization would make the experience even better.",
+        "author": "Oliver Bennett"
+    },
+    {
+        "id": 11,
+        "stars": 5,
+        "message": "The suggestions helped me see my preparation from a different perspective.",
+        "author": "Vikram Sharma"
+    },
+    {
+        "id": 12,
+        "stars": 4,
+        "message": "Clean experience with useful recommendations for improving my career preparation.",
+        "author": "Mia Anderson"
+    }
+]

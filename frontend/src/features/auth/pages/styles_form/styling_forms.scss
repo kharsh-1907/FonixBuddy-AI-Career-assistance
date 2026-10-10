@@ -1,0 +1,31 @@
+.custom-alert.Form-Alert-styling {
+    position: fixed;
+    top: 2pc;
+    left: 10%;
+    width: 80%;
+    z-index: 999;
+
+    padding: 12px 16px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 500;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group-password {
+    display: flex;
+    // flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.3rem;
+
+    input {
+        width: stretch;
+    }
+    svg{
+        margin-top: 50%;
+    }
+}
