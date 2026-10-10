@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Signup from "./features/auth/pages/Signup";
 import Login from "./features/auth/pages/Login";
-import Protected_auth from "./features/auth/components/protected_auth";
+import Protected_auth from "./features/auth/components/Protected_auth";
 import IR_Home from "./features/interview/pages/Home";
 import Interview_user from "./features/interview/pages/interview";
 import Resume_home from "./Components/Resume_home";
