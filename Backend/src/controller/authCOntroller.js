@@ -70,7 +70,16 @@ async function loginuser(req, res) {
         { expiresIn: "1d" }
     );
 
-    res.cookie("token", token);
+
+    const isProduction = process.env.NODE_ENV === "production";
+
+    res.cookie("token", token, {
+        httpOnly: true,
+        secure: isProduction,
+        sameSite: isProduction ? "none" : "lax",
+        maxAge: 24 * 60 * 60 * 1000
+    });
+
     res.json({
         message: "User Logged-In Successfully",
         user: {
@@ -86,7 +95,13 @@ async function logoutuser(req, res) {
     if (token) {
         await BlacklistToken.create({ token });
     }
-    res.clearCookie("token");
+
+    res.clearCookie("token", {
+        httpOnly: true,
+        secure: process.env.NODE_ENV === "production",
+        sameSite: process.env.NODE_ENV === "production" ? "none" : "lax"
+    });
+
     return res.json({
         message: "Logged-Out Sucessful."
     });
@@ -99,7 +114,7 @@ async function get_me_Controller(req, res) {
             message: "User not found."
         });
     }
-    
+
     res.json({
         message: "User Fetched Successfully.",
         user: {
