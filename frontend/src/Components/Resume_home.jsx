@@ -136,7 +136,7 @@ const Resume_home = () => {
             });
 
         } catch (error) {
-            // console.log("RESUME GENERATION ERROR:", error);
+            console.log("RESUME GENERATION ERROR:", error);
             const status = error.response?.status;
             setAlert({
                 type: "danger",

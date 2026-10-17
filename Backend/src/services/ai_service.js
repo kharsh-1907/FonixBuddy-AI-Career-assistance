@@ -1467,7 +1467,7 @@ async function generateResumePdf({ resume, selfDescription, jobDescription }) {
 
 
     const response = await mistral.chat.complete({
-        model: "ministral-8b-2512",//   ministral-3b-2512  ,   ministral-8b-2512   ,  ministral-14b-2512  ,
+        model: "ministral-14b-2512",//   ministral-3b-2512  ,   ministral-8b-2512   ,  ministral-14b-2512  ,
         messages: [
             {
                 role: "user",
